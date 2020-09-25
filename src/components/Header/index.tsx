@@ -1,19 +1,18 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import { Container, LogoTitle, Logo, Title, Actions } from './styles';
+import { Container, Logo, Actions, UserIcon, UserName } from './styles';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <LogoTitle>
-        <Logo />
-        <Title>Youtube</Title>
-      </LogoTitle>
+      <Logo />
       <Actions>
-        <Icon name="videocam" size={20} />
-        <Icon name="search" size={20} />
-        {/* <Icon name="move-vert" size={20} /> */}
+        <Icon name="videocam" size={28} color="#606060" />
+        <Icon name="search" size={28} color="#606060" />
+        <UserIcon>
+          <UserName>N</UserName>
+        </UserIcon>
       </Actions>
     </Container>
   );
