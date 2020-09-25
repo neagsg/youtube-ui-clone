@@ -1,11 +1,14 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { StatusBar } from 'react-native';
+
+import Routes from './routes';
 
 const App: React.FC = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <>
+      <StatusBar barStyle="light-content" />
+      <Routes />
+    </>
   );
 };
 
