@@ -1,15 +1,15 @@
 import React from 'react';
+import { Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
+import Header from './components/Header';
 import Home from './pages/Home';
-// import TitleBottomTab from './components/TitleBottomTab';
 import Explorer from './pages/Explorer';
 import Subscriptions from './pages/Subscriptions';
 import Notifications from './pages/Notifications';
 import Library from './pages/Library';
-import { Text } from 'react-native';
 
 interface TitleProps {
   title: string;
@@ -34,7 +34,9 @@ function TitleBottom({ title, color }: TitleProps) {
 const Routes = () => {
   return (
     <NavigationContainer>
+      <Header />
       <Tab.Navigator
+        screenOptions={{}}
         tabBarOptions={{
           activeTintColor: '#cc3030',
           labelPosition: 'below-icon',
