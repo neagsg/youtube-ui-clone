@@ -4,7 +4,7 @@
 <p align="center">Clone da UI das telas principais do Youtube para fins de estudo</p>
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=Programdor&message=Gean Gomes&color=7159c1&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/badge/Programador-Gean%20Gomes-%2300baf2?style=for-the-badge&logo=ghostery"/>
 </p>
 <br />
 <br />
