@@ -24,6 +24,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Styled Componets](https://styled-components.com/)
 
 
+<br />
+<br />
+
+
+## Ambiente de desenvolvimento
+
+<p>1. Rode <code>yarn install</code> ou <code>npm install</code>.
+<p>2. Depois rode <code>yarn install</code>.
+
+
 
 ### Autor
 ---
